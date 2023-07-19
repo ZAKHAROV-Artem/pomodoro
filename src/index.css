@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Clash"; /*a name to be used later*/
+  src: url("./assets/fonts/clash-display.otf"); /*URL to font*/
+}
+body {
+  background-image: url("./assets/imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #aaa;
+  font-family: "Clash";
+}
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
